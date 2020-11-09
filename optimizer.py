@@ -108,7 +108,7 @@ def make_moldata(fname):
 
 ###################################################################
 
-parser = argparse.ArgumentParser(description='Make an initial guess')
+parser = argparse.ArgumentParser(description='Optimize basis')
 parser.add_argument('-e', '--elements', metavar='elements',  type=str,   nargs='+',    help='elements for optimization')
 parser.add_argument('-b', '--basis',    metavar='basis',     type=str,   nargs='+',    help='initial df bases', required=True)
 parser.add_argument('--molecules',      metavar='molecules', type=str,   nargs='+',    help='molecules', required=True)           # cannot use '-m' because pyscf treats it as memory

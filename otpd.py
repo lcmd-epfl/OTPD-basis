@@ -33,7 +33,7 @@ def readmol(fname, basis, charge=0, spin=0, ignore=False):
 
 ################################################################################
 
-parser = argparse.ArgumentParser(description='Generate a density to be fitted')
+parser = argparse.ArgumentParser(description='Generate the density to be fitted')
 parser.add_argument('molecule',     metavar='molecule', type=str, help='xyz file')
 parser.add_argument('basis',        metavar='basis',    type=str, help='ao basis')
 parser.add_argument('output',       metavar='output',   type=str, help='output file')
