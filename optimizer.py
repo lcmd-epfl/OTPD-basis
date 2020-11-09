@@ -8,7 +8,6 @@ import scipy.optimize
 from pyscf import gto,df,dft
 import pyscf.data
 from functions import *
-import cg
 
 
 def energy(x):
