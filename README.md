@@ -56,11 +56,11 @@ to minimize the OTPD decomposition error.
 * check: if enabled, check gradient and exit
 
 #### Examples
-Optimize exponents for Hydrogen on OTPD of H2:
+Optimize exponents for Hydrogen on OTPD of H₂:
 ```
 python optimizer.py -b initial/H_N0.txt --molecules mol/otpd/H2.ccpvtz.grid3.npz
 ```
-Optimize exponents for Oxygen on OTPD of H2O and H2O2, using optimized basis for Hydrogen:
+Optimize exponents for Oxygen on OTPD of H₂O and H₂O₂, using optimized basis for Hydrogen:
 ```
 python optimizer.py -e O -b opt/H_N0.bfgs.txt initial/O_N0.txt \
                     --molecules mol/otpd/H2O.ccpvtz.grid3.npz mol/otpd/H2O2.ccpvtz.grid3.npz
