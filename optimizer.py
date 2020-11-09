@@ -170,12 +170,7 @@ if args.check:
 print(args.method, 'tol =', args.gtol)
 it = 0
 
-if args.method=='mycg':
-  pars   = {'MG':1e-8, 'K':128}
-  pars1d = {'h':3.0, 'D':0.125, 'H':1e-6, 'G':1e-9, 'K':128}
-  e,g,xopt = cg.conj_grad(pars, pars1d, gradient, x1)
-else:
-  xopt = scipy.optimize.minimize(energy, x1, method=args.method, jac=gradient_only, options={ 'gtol':args.gtol,'disp':True}).x
+xopt = scipy.optimize.minimize(energy, x1, method=args.method, jac=gradient_only, options={ 'gtol':args.gtol,'disp':True}).x
 
 exponents = np.exp(xopt)
 newbasis  = exp2basis(exponents, myelements, basis)
