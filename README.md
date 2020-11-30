@@ -3,8 +3,8 @@
 This code supports the paper
 > A. Fabrizio, K. R. Briling, D. D. Girardier, and C. Corminboeuf,<br>
 > “Learning on-top: regressing the on-top pair density for real-space visualization of electron correlation”<br>
+> [J. Chem. Phys. **153**, 204111 (2020)](https://doi.org/10.1063/5.0033326)
 > [`arXiv:2010.07116 [physics.chem-ph]`](https://arxiv.org/abs/2010.07116)<br>
-> accepted for publication in J. Chem. Phys. [(`doi:10.1063/5.0033326`)](https://doi.org/10.1063/5.0033326)
 
 It is written to optimize of basis set
 for decomposition of the on-top pair density (OTPD)
