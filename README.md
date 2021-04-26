@@ -1,12 +1,14 @@
 # OTPD-basis
 
+[![DOI](https://img.shields.io/badge/DOI-10.1063%2F5.0033326-blue)](https://doi.org/10.1063/5.0033326)
+
 This code supports the paper
 > A. Fabrizio, K. R. Briling, D. D. Girardier, and C. Corminboeuf,<br>
 > “Learning on-top: regressing the on-top pair density for real-space visualization of electron correlation”<br>
 > [J. Chem. Phys. **153**, 204111 (2020)](https://doi.org/10.1063/5.0033326)
 > [`arXiv:2010.07116 [physics.chem-ph]`](https://arxiv.org/abs/2010.07116)<br>
 
-It is written to optimize of basis set
+It is written to optimize the basis set
 for decomposition of the on-top pair density (OTPD)
 onto atom-centered contributions.
 
